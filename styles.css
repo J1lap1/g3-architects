@@ -1,0 +1,57 @@
+/* common styles */
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@500;700&family=Work+Sans:wght@700&display=swap');
+body{
+    font-family: 'Work Sans';
+}
+  .header-title{
+    font-family: 'Work Sans';
+font-weight: 700;
+font-size: 45px;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+padding: 0 150px;
+background: rgba(255, 144, 14, 0.1);
+
+  }
+  .header-options{
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+
+}
+.landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 102px;
+    padding-bottom: 45px;
+    background: rgba(255, 144, 14, 0.1);
+}
+.landing-header{
+    font-weight: 700;
+font-size: 64px;
+padding-bottom: 20px;
+text-align: center;
+margin: 0;
+}
+
+.landing-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin: 0;
+text-align: center;
+width: 868px;
+padding-bottom: 32px;
+}
+.explore-button{
+    margin: 0;
+    background-color:#FF900E;
+    color: #FFFFFF;
+    padding: 21px 24px; 
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
